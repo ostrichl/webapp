@@ -1,11 +1,11 @@
 import React from 'react'
 import { Router, Route } from 'react-router-dom'
 
-import createBrowserHistory from 'history/createBrowserHistory'
-const customHistory = createBrowserHistory()
-
 import App from '../containers'
 import SubRouter from './SubRouter'
+
+import createBrowserHistory from 'history/createBrowserHistory'
+const customHistory = createBrowserHistory()
 
 export default class RouteMap extends React.Component {
     render() {
